@@ -2,80 +2,138 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Tiya Jain Portfolio</title>
+  <title>Tiya Jain | Portfolio</title>
 
-  <!-- 🔥 LinkedIn / WhatsApp Preview Fix (Open Graph Tags) -->
-  <meta property="og:title" content="Tiya Jain Portfolio">
-  <meta property="og:description" content="AI/ML and Web Development Projects Portfolio">
+  <!-- 🔥 LinkedIn Preview (Open Graph) -->
+  <meta property="og:title" content="Tiya Jain | AI/ML & Web Developer Portfolio">
+  <meta property="og:description" content="Projects in AI, Machine Learning, and Web Development">
   <meta property="og:image" content="https://via.placeholder.com/1200x630">
   <meta property="og:url" content="https://tj1924672-boop.github.io/Portfolio-/">
   <meta property="og:type" content="website">
 
+  <!-- Styling -->
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      text-align: center;
-      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
     }
 
     header {
-      background: #222;
+      background: #111827;
       color: white;
-      padding: 20px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #cbd5e1;
     }
 
     section {
-      margin: 50px;
-      padding: 20px;
+      max-width: 900px;
+      margin: 30px auto;
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     }
 
-    h1 {
+    h2 {
+      color: #111827;
       margin-bottom: 10px;
     }
 
+    .card {
+      background: #f9fafb;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border-left: 4px solid #2563eb;
+    }
+
     a {
-      color: blue;
+      color: #2563eb;
       text-decoration: none;
       font-weight: bold;
     }
-  </style>
 
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+  </style>
 </head>
 
 <body>
 
+  <!-- Hero Section -->
   <header>
     <h1>Tiya Jain</h1>
-    <p>AI/ML & Web Developer</p>
+    <p>AI/ML Enthusiast | Web Developer | Learner</p>
   </header>
 
+  <!-- About -->
   <section>
     <h2>About Me</h2>
-    <p>I am learning AI, Machine Learning and Web Development. This is my portfolio.</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <p>✔ AI Detection Project</p>
-    <p>✔ ML Titanic Dataset Analysis</p>
-    <p>✔ Web Development Projects</p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>GitHub: 
-      <a href="https://github.com/">My GitHub</a>
+    <p>
+      I am passionate about Artificial Intelligence, Machine Learning and Web Development.
+      I enjoy building real-world projects and continuously improving my skills.
     </p>
   </section>
 
-</body>
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
 
+    <div class="card">
+      <h3>AI Detection System</h3>
+      <p>Built a basic AI model to detect patterns and predictions using machine learning.</p>
+    </div>
+
+    <div class="card">
+      <h3>Titanic Dataset Analysis</h3>
+      <p>Performed data cleaning, visualization and prediction using ML techniques.</p>
+    </div>
+
+    <div class="card">
+      <h3>Web Development Portfolio</h3>
+      <p>Designed and deployed personal portfolio using HTML, CSS and GitHub Pages.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Skills</h2>
+    <p>✔ HTML, CSS, JavaScript</p>
+    <p>✔ Python</p>
+    <p>✔ Machine Learning Basics</p>
+    <p>✔ Git & GitHub</p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>GitHub: <a href="https://github.com/">Visit My GitHub</a></p>
+    <p>Email: your-email@example.com</p>
+  </section>
+
+  <footer>
+    © 2026 Tiya Jain | Portfolio
+  </footer>
+
+</body>
 </html>
